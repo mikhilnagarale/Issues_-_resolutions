@@ -1,0 +1,10 @@
+Issue - curl: (35) SSL connect error
+Cause - curl version ( version < curl_7.36.0) in centos 6.3 is older & it has ssl connection bug & it's resolved in curl version ( version >= curl_7.36.0)
+Resolution - Upgrade curl version. For this refer below references.
+
+Reference for Issue Cause - 
+https://bbs.archlinux.org/viewtopic.php?id=175433
+https://sourceforge.net/p/curl/bugs/1319/
+
+Reference for Issue Resolution -
+https://admin-ahead.com/forum/general-linux/upgrade-curl-to-the-latest-version-in-centos-6/?PHPSESSID=22me4562fhu569ludbfbjh6sp7
